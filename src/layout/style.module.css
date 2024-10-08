@@ -1,0 +1,11 @@
+.layout_wrap{
+    display:flex;
+    flex-direction: row;
+    height: 92.5vh;;
+    overflow: hidden;
+
+}
+.layout_wrap main{
+    flex:1; 
+    overflow-y: auto;
+}

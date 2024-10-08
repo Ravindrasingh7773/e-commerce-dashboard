@@ -1,0 +1,22 @@
+.button {
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.small {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+.fill {
+}
+.outline {
+  color: #1e5eff;
+  background-color: #d9e4ff;
+}
+.link_button {
+  text-decoration: none;
+}

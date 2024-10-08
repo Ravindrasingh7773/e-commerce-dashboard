@@ -1,0 +1,35 @@
+.dw_mainTitle {
+  display: flex;
+  align-items: center;
+  padding: 24px 40px;
+}
+.dw_mainTitle > h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #131523;
+  flex: 1;
+}
+.dw_mainTitle .dwmt_manag a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  background-color: #fff;
+  padding: 8px 25px;
+  color: #1e5eff;
+  border-radius: 4px;
+}
+.dw_mainTitle .dwmt_manag2 {
+  margin-left: 15px;
+}
+.dw_mainTitle .dwmt_manag2 a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  color: #fff;
+  padding: 8px 25px;
+  background-color: #1e5eff;
+  border-radius: 4px;
+}

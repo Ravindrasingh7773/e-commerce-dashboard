@@ -1,0 +1,136 @@
+.orders {
+  background-color: #f5f6fa;
+}
+.o_orders_filter {
+  padding: 32px;
+}
+.oof_wrapper {
+  background-color: #fff;
+  padding: 32px 28px;
+  border-radius: 4px;
+}
+.of_filter_search {
+  display: flex;
+  align-items: center;
+}
+.offs_filter {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+}
+.offsf_filter select {
+  width: 150px;
+  padding: 10px 0px;
+  border: 1px solid #d9e1ec;
+  color: #a1a7c4;
+  background-color: transparent;
+  border-radius: 4px;
+}
+.offsf_filter select:focus {
+  outline: none;
+}
+.offsf_search {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d9e1ec;
+  border-radius: 4px;
+  color: #a1a7c4;
+  padding: 8px 16px;
+  /* background-color: ; */
+}
+.offsf_search label {
+  margin-right: 10px;
+}
+.offsf_search input {
+  border: none;
+  width: 250px;
+  background-color: transparent;
+}
+.offsf_search input:focus {
+  border: none;
+  outline: none;
+}
+.offs_remove p {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.offs_remove p span {
+  border: 1px solid #d9e1ec;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #1e5eff;
+}
+.order_details1 {
+  margin-bottom: 34px;
+}
+.order_details1 table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+.order_details1 > table > tr th,
+.order_details1 > table > tr td {
+  padding: 15px 0;
+  border-bottom: 2px solid #e6e9f4;
+}
+.order_details1 table tr th {
+  color: #5a607f;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.order_details1 table tr td {
+  color: #131523;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.order_details1 table tr th.od_head_order,
+.order_details1 table tr td.od_tr_paid3 {
+  /* display: flex;
+  align-items: center; */
+}
+
+.order_details1 table tr td.od_tr_paid3 input.odtp_check,
+.order_details1 > table > tr > th > input.od_check {
+  width: 18px;
+  height: 18px;
+  margin-right: 12px;
+}
+.order_details1 table tr td.od_tr_paid1 span {
+  background: #c4f8e2;
+  color: #06a561;
+  padding: 5px 15px;
+  border-radius: 4px;
+}
+.order_details1 table tr td.od_tr_paid2 span {
+  background: #f99600;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 4px;
+}
+.od_pagination {
+  display: flex;
+  align-items: center;
+}
+.odp_page {
+  flex: 1;
+}
+.odp_page ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+.odp_page ul li a {
+  text-decoration: none;
+}
+.odp_result span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #5a607f;
+}

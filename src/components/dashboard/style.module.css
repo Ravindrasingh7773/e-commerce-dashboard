@@ -1,0 +1,363 @@
+.d_wrapper {
+  padding: 24px 40px 35px 40px;
+  background-color: #fff6f4;
+}
+.dw_header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 24px;
+  justify-content: space-between;
+}
+.dw_title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #131523;
+}
+.dw_manage {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #1e5eff;
+  text-decoration: none;
+}
+.dw_manage span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.dw_card_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+.dw_card {
+  display: flex;
+  align-items: center;
+  gap: 39px;
+  padding: 6px 43px;
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+.dwc_title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #131523;
+}
+.dwc_description {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #5a607f;
+}
+.dwc_growth {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 20px;
+  position: relative;
+  color: #06a561;
+}
+.dwc_growth::after {
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-left: 1px solid;
+  border-top: 1px solid;
+  transform: translateY(-50%) rotate(42deg);
+  top: 12px;
+  left: 39px;
+}
+.dwc_right {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  color: #1e5eff;
+  background-color: #ecf2ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.d_tabel {
+  display: flex;
+  gap: 30px;
+}
+.d_tabel_box {
+  width: 100%;
+  border-radius: 6px;
+  padding: 28px 28px 20px 28px;
+  border: 1px solid #e6e9f4;
+  background-color: #ffffff;
+}
+.d_tabel_title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #131523;
+  padding-bottom: 20px;
+}
+.transactions_data_wrapper {
+  width: 100%;
+}
+.td_title th {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #5a607f;
+  padding: 12px 8px;
+  text-align: left;
+}
+.td_data td {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #131523;
+  border-top: 2px solid #e6e9f4;
+  padding: 16px 8px;
+}
+.td_data td:first-child {
+  font-weight: 500;
+}
+.td_data td:last-child {
+  font-weight: 500;
+}
+.td_img_data td {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #131523;
+  border-top: 2px solid #e6e9f4;
+  padding: 8px;
+}
+.td_img_data td img{
+  width:36px;
+  height: 36px;
+  object-fit: contain;
+  border-radius: 5px;;
+}
+.td_img_data td:first-child {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.td_img_data td:last-child {
+  font-weight: 500;
+}
+.doc_left_head {
+  display: flex;
+  align-items: center;
+  padding-bottom: 24px;
+  justify-content: space-between;
+}
+.doc_left_head .doc_time {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #5a607f;
+}
+.doc_left_head .doc_time:focus {
+  outline: none;
+}
+.order_date_title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #131523;
+}
+/*middle*/
+
+.dwgi_bigGrafh {
+  display: flex; 
+  margin-top: 24px;
+}
+.dwgib_bigOrder1 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: #fff;
+  padding: 28px;
+  border-radius: 4px;
+}
+.db_order_over_time {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.db_order_over_time h5 {
+  flex: 1;
+  color: #131523;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.db_order_over_time select {
+  border: none;
+  color: #5a607f;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.db_order_month {
+  display: flex;
+  align-items: center;
+  margin-bottom: 28px;
+}
+.dom_month1 {
+  padding-right: 40px;
+}
+.dom_month2 {
+  flex: 1;
+}
+.dom_month1 h6,
+.dom_month2 h6 {
+  color: #131523;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.dom_month1 p,
+.dom_month2 p {
+  color: #5a607f;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.dom_month3 {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.dom_month3 p {
+  display: flex;
+  align-items: center;
+}
+.dom_month3 p:first-child span {
+  width: 20px;
+  height: 20px;
+  background: #d9e1ec;
+  margin-right: 8px;
+
+  display: inline-block;
+  border-radius: 4px;
+}
+.dom_month3 p:last-child span {
+  width: 20px;
+  height: 20px;
+  background: #1e5eff;
+  margin-right: 8px;
+
+  display: inline-block;
+  border-radius: 4px;
+}
+.dwgib_bigOrder2 {
+  background-color: #fff;
+  border-radius: 4px;
+
+  padding: 28px;
+  margin-left: 30px;
+}
+.dwgib_bigOrder2 .dwb_inner {
+  display: flex;
+  flex-direction: column;
+}
+.dwgib_bigOrder2 .dwb_inner h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #131523;
+  margin-bottom: 24px;
+}
+.dwgib_bigOrder2 .dwb_inner p.dwbi_sold {
+  margin-bottom: 20px;
+}
+.dwgib_bigOrder2 .dwb_inner p.dwbi_sold h5,
+.dwgib_bigOrder2 .dwb_inner p.dwbi_revenue h5 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #131523;
+}
+.dwgib_bigOrder2 .dwb_inner p.dwbi_sold span,
+.dwgib_bigOrder2 .dwb_inner p.dwbi_revenue span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #5a607f;
+}
+.dwgib_bigOrder2 .dwb_inner p.dwbi_revenue {
+  border-bottom: 1px solid #e6e9f4;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+.dwbi_chartImg {
+  flex: 1;
+}
+.dwgi_smallgrafh {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ds_totalreven,
+.ds_orders {
+  padding: 1px 43px;
+}
+.ds_totalreven,
+.ds_orders,
+.ds_unique_visit,
+.ds_newUsers,
+.ds_existingUsers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  box-shadow: 0px 1px 4px 0px #15223214;
+  background-color: #fff;
+  border-radius: 4px;
+}
+.ds_unique_visit,
+.ds_newUsers,
+.ds_existingUsers {
+  padding: 1px 18px;
+}
+.ds_totalreven h5,
+.ds_orders h5,
+.ds_unique_visit h5,
+.ds_newUsers h5,
+.ds_existingUsers h5 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #131523;
+  margin: 0;
+}
+.ds_totalreven p,
+.ds_orders p,
+.ds_unique_visit p,
+.ds_newUsers p,
+.ds_existingUsers p {
+  color: #5a607f;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.ds_totalreven span,
+.ds_orders span,
+.ds_newUsers span,
+.ds_existingUsers span {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #06a561;
+}
+.ds_unique_visit span {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #f0142f;
+}

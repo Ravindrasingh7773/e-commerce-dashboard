@@ -1,0 +1,29 @@
+.user_data {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;;
+}
+.user_name_logo {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1fd286;
+  text-transform: uppercase;
+}
+.user_name {
+  border: none;
+  color: #ffffff;
+  background-color: transparent;
+}
+.user_name:focus {
+  border: none;
+  outline: none;
+}
