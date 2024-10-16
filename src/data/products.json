@@ -1,0 +1,262 @@
+[
+    {
+      "id": 1,
+      "img": "https://m.media-amazon.com/images/I/612Rl6GKHoL._AC_UL480_FMwebp_QL65_.jpg",
+  
+      "name": "Men Grey Hoodie",
+      "category": "Hoodies",
+      "stock": 96,
+      "color": "Black",
+      "price": 49.9,
+      "rating": 5.0,
+  
+      "votes": 32
+    },
+    {
+      "id": 2,
+      "img": "https://m.media-amazon.com/images/I/618LNZgzG1L._AC_UL480_FMwebp_QL65_.jpg",
+  
+      "name": "Women Red Hoodie",
+      "category": "Hoodies",
+      "stock": 50,
+      "color": "Red",
+      "price": 55.5,
+      "rating": 4.8,
+  
+      "votes": 28
+    },
+    {
+      "id": 3,
+      "img": "https://m.media-amazon.com/images/I/71DNOWgs62L._AC_UL480_FMwebp_QL65_.jpg",
+  
+      "name": "Men Blue Hoodie",
+      "category": "Hoodies",
+      "stock": 80,
+      "color": "Blue",
+      "price": 42.0,
+      "rating": 4.5,
+  
+      "votes": 15
+    },
+    {
+      "id": 4,
+      "img": "https://m.media-amazon.com/images/I/61hLb3DSS4L._AC_UL480_FMwebp_QL65_.jpg",
+  
+      "name": "Women Black Hoodie",
+      "category": "Hoodies",
+      "stock": 120,
+      "color": "Black",
+      "price": 48.9,
+      "rating": 4.7,
+  
+      "votes": 40
+    },
+    {
+      "id": 5,
+      "img": "https://m.media-amazon.com/images/I/71Mz8SowepL._AC_UL480_FMwebp_QL65_.jpg",
+  
+      "name": "Men Green Hoodie",
+      "category": "Hoodies",
+      "stock": 75,
+      "color": "Green",
+      "price": 52.3,
+      "rating": 4.6,
+  
+      "votes": 18
+    },
+    {
+      "id": 6,
+      "img": "https://m.media-amazon.com/images/I/61iKv6-unXL._AC_UL480_FMwebp_QL65_.jpg",
+  
+      "name": "Women Grey Hoodie",
+      "category": "Hoodies",
+      "stock": 90,
+      "color": "Grey",
+      "price": 47.5,
+      "rating": 4.9,
+  
+      "votes": 25
+    },
+    {
+      "id": 7,
+      "img": "https://m.media-amazon.com/images/I/51scvTo94qL._AC_UL480_FMwebp_QL65_.jpg",
+  
+      "name": "Men White Hoodie",
+      "category": "Hoodies",
+      "stock": 40,
+      "color": "White",
+      "price": 53.2,
+      "rating": 4.2,
+  
+      "votes": 14
+    },
+    {
+      "id": 8,
+      "img": "https://m.media-amazon.com/images/I/71rF787hRkL._AC_UL480_FMwebp_QL65_.jpg",
+  
+      "name": "Women Blue Hoodie",
+      "category": "Hoodies",
+      "stock": 65,
+      "color": "Blue",
+      "price": 50.0,
+      "rating": 4.3,
+  
+      "votes": 22
+    },
+    {
+      "id": 9,
+      "img": "https://m.media-amazon.com/images/I/71UGfozNOjL._AC_UL480_QL65_.jpg",
+  
+      "name": "Men Yellow Hoodie",
+      "category": "Hoodies",
+      "stock": 55,
+      "color": "Yellow",
+      "price": 45.99,
+      "rating": 4.1,
+  
+      "votes": 19
+    },
+    {
+      "id": 10,
+      "img": "https://m.media-amazon.com/images/I/91E1TbeBeGL._AC_UL480_FMwebp_QL65_.jpg",
+  
+      "name": "Women Purple Hoodie",
+      "category": "Hoodies",
+      "stock": 100,
+      "color": "Purple",
+      "price": 51.8,
+      "rating": 4.9,
+  
+      "votes": 35
+    },
+    {
+      "id": 11,
+      "img": "https://m.media-amazon.com/images/G/31/img2021/Sportswear_21/SW_22/May/XCM_flip/Brand_Tiles/Women/brands_04._CB637448834_.jpg",
+  
+      "name": "Men Orange Hoodie",
+      "category": "Hoodies",
+      "stock": 70,
+      "color": "Orange",
+      "price": 44.3,
+      "rating": 4.6,
+  
+      "votes": 24
+    },
+    {
+      "id": 12,
+      "img": "https://m.media-amazon.com/images/G/31/img2021/Sportswear_21/SW_22/May/XCM_flip/Brand_Tiles/Women/brands_05._SY530_QL85_.jpg",
+  
+      "name": "Women Pink Hoodie",
+      "category": "Hoodies",
+      "stock": 85,
+      "color": "Pink",
+      "price": 49.9,
+      "rating": 4.5,
+  
+      "votes": 27
+    },
+    {
+      "id": 13,
+      "img": "https://m.media-amazon.com/images/I/71bfSLiEkpL._AC_UL480_QL65_.jpg",
+  
+      "name": "Men Brown Hoodie",
+      "category": "Hoodies",
+      "stock": 60,
+      "color": "Brown",
+      "price": 47.99,
+      "rating": 4.0,
+  
+      "votes": 20
+    },
+    {
+      "id": 14,
+      "img": "https://m.media-amazon.com/images/G/31/img2021/Sportswear_21/SW_22/May/XCM_flip/Brand_Tiles/Women/brands_02._SY530_QL85_.jpg",
+  
+      "name": "Women Yellow Hoodie",
+      "category": "Hoodies",
+      "stock": 45,
+      "color": "Yellow",
+      "price": 46.5,
+      "rating": 4.8,
+  
+      "votes": 30
+    },
+    {
+      "id": 15,
+      "img": "https://rukminim2.flixcart.com/image/612/612/xif0q/cycle/0/h/e/24t-insane-city-bike-9-14-year-age-semi-assembled-premium-original-imah5yfdfdcaxcfm.jpeg?q=70",
+  
+      "name": "Men Black Hoodie",
+      "category": "Hoodies",
+      "stock": 110,
+      "color": "Black",
+      "price": 50.9,
+      "rating": 5.0,
+  
+      "votes": 40
+    },
+    {
+      "id": 16,
+      "img": "https://rukminim2.flixcart.com/image/612/612/xif0q/jean/c/m/m/28-kttladiesjeans2406-kotty-original-imagt3nsbmy47gdm.jpeg?q=70",
+  
+      "name": "Women Green Hoodie",
+      "category": "Hoodies",
+      "stock": 95,
+      "color": "Green",
+      "price": 52.0,
+      "rating": 4.7,
+  
+      "votes": 25
+    },
+    {
+      "id": 17,
+      "img": "https://rukminim2.flixcart.com/image/612/612/xif0q/kurta/4/n/r/xxl-rf-1062-rimeline-fashion-original-imah4ffbegyryte7.jpeg?q=70",
+  
+      "name": "Men Purple Hoodie",
+      "category": "Hoodies",
+      "stock": 50,
+      "color": "Purple",
+      "price": 51.7,
+      "rating": 4.4,
+  
+      "votes": 15
+    },
+    {
+      "id": 18,
+      "img": "https://rukminim2.flixcart.com/image/612/612/xif0q/kurta/2/y/0/s-ku767grn-mokshi-original-imagk5myfhduxgfq.jpeg?q=70",
+  
+      "name": "Women Orange Hoodie",
+      "category": "Hoodies",
+      "stock": 60,
+      "color": "Orange",
+      "price": 49.0,
+      "rating": 4.6,
+  
+      "votes": 20
+    },
+    {
+      "id": 19,
+      "img": "https://rukminim2.flixcart.com/image/612/612/xif0q/kurta/u/4/d/m-psk318-glorious-original-imagj96fu7xvaq3y.jpeg?q=70",
+  
+      "name": "Men Pink Hoodie",
+      "category": "Hoodies",
+      "stock": 80,
+      "color": "Pink",
+      "price": 43.9,
+      "rating": 4.3, 
+      "votes": 18
+    },
+    {
+      "id": 20,
+      "img": "https://rukminim2.flixcart.com/image/612/612/xif0q/kurta/6/z/5/l-gw175-glowworld-original-imah2kfpx497gvkp.jpeg?q=70",
+  
+      "name": "Women White Hoodie",
+      "category": "Hoodies",
+      "stock": 130,
+      "color": "White",
+      "price": 54.5,
+      "rating": 4.8,
+  
+      "votes": 32
+    }
+  ]
+  

@@ -16,7 +16,7 @@ import SettingIcon from "../../icons/settingIcon";
 import ListIcon from "../../icons/listIcon";
 
 const NavigationData1 = [
-  { icon: <HomeIcon />, title: "Dashboard" ,path:"/dashboard"},
+  { icon: <HomeIcon />, title: "Dashboard" ,path:"/"},
   { icon: <ListIcon />, title: "Orders",path:"/orders" },
   { icon: <FinanceIcon />, title: "Products",path:"/products" },
   { icon: <FolderIcon />, title: "Categories",path:"/categories" },
@@ -32,15 +32,14 @@ const NavigationData2 = [
 const NavigationData3 = [
   { icon: <PersonIcon />, title: "Personal Settings",path:"/personalSettings"  },
   { icon: <SettingIcon />, title: "Global Settings",path:"/globalSettings"  },
-];
+]; 
 
 const SideMenuBar = () => {
   return (
     <div className={styles.sidebar}>
       <div className={styles.navigation_top}>
         {NavigationData1.map((value, index) => ( 
-            <NavItem to={value.path} title={value.title}  key={index} icon={value.icon}  className={({ isActive }) => isActive ? styles.active : undefined} />
-         
+            <NavItem to={value.path} title={value.title}  key={index} icon={value.icon}  className={({ isActive }) => isActive ? styles.active : undefined} /> 
         ))}
       </div>
       <div className={styles.navigation_miduem}>
@@ -50,13 +49,13 @@ const SideMenuBar = () => {
         ))}
       </div>
 
-      <div className={styles.navigation_miduem}>
+      <div className={`${styles.navigation_miduem} ${styles.navigation_medium2}`}>
         <div className={styles.navigation_title}>Settings</div>
         {NavigationData3.map((value, index) => ( 
             <NavItem to={value.path} title={value.title} icon={value.icon}  key={index} /> 
         ))}
       </div>
-      {/* <div className={styles.sidebar_bottom}>
+      <div className={styles.sidebar_bottom}>
         <div className={styles.sb_box}>
           <div className={styles.sb_title}>Grow Business</div>
           <div className={styles.sb_description}>
@@ -64,7 +63,7 @@ const SideMenuBar = () => {
           </div>
           <button className={styles.readMore_btn}>Read More</button>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

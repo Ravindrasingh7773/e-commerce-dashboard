@@ -1,5 +1,10 @@
 .create_account {
-  background-color: #f5f6fa;
+  background-color: #f5f6fa;position: fixed;
+  inset: 0;
+  padding:100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .ca_wrapper {
   margin: auto;

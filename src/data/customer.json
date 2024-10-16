@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Rakesh Mishra",
+        "area": "Sawaynchester",
+        "count": 5,
+        "price": "$96.14"
+    },
+    {
+        "id": 2,
+        "name": "Lakshman singh",
+        "area": "Marne",
+        "count": 72,
+        "price": "$50.37"
+    },
+    {
+        "id": 3,
+        "name": "Dinanath sah",
+        "area": "Curtice",
+        "count": 6,
+        "price": "$281.88"
+    },
+    {
+        "id": 4,
+        "name": "Anmol yadav",
+        "area": "Dexter",
+        "count": 3,
+        "price": "$220.95"
+    },
+    {
+        "id": 5,
+        "name": "Raushan singh Rajput",
+        "area": "Clay",
+        "count": 15,
+        "price": "$435.61"
+    },
+    {
+        "id": 6,
+        "name": "Lokesh Rahul",
+        "area": "Freeburn",
+        "count": 12,
+        "price": "$74.83"
+    },
+    {
+        "id": 7,
+        "name": "Randhir Kumar",
+        "area": "Franeckiview",
+        "count": 5,
+        "price": "$25.18"
+    },
+    {
+        "id": 8,
+        "name": "Khushi Kumari",
+        "area": "Port Kathryne",
+        "count": 7,
+        "price": "$113.39"
+    },
+    {
+        "id": 9,
+        "name": "Pooja Kumari",
+        "area": "McGlynntown",
+        "count": 14,
+        "price": "$80.80"
+    },
+    {
+        "id": 10,
+        "name": "Ruhi Kumari",
+        "area": "Krystalview",
+        "count": 5,
+        "price": "$42.03"
+    }
+]

@@ -175,6 +175,7 @@
 .dwgi_bigGrafh {
   display: flex; 
   margin-top: 24px;
+  gap:30px;
 }
 .dwgib_bigOrder1 {
   display: flex;
@@ -257,10 +258,9 @@
 }
 .dwgib_bigOrder2 {
   background-color: #fff;
-  border-radius: 4px;
-
-  padding: 28px;
-  margin-left: 30px;
+  border-radius: 4px; 
+  padding: 28px; 
+  width:255px;
 }
 .dwgib_bigOrder2 .dwb_inner {
   display: flex;
@@ -318,7 +318,7 @@
   gap: 40px;
   box-shadow: 0px 1px 4px 0px #15223214;
   background-color: #fff;
-  border-radius: 4px;
+  border-radius: 4px;width: calc(20% - 33px);
 }
 .ds_unique_visit,
 .ds_newUsers,

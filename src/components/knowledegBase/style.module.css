@@ -1,0 +1,137 @@
+.knowledge_base {
+  background-color: #f5f6fa;
+}
+.kb_help {
+  padding: 0 40px 40px 40px;
+}
+.kb_help .kbh_wrapper {
+}
+
+.offsf_search {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d9e1ec;
+  border-radius: 4px;
+  color: #a1a7c4;
+  padding: 8px 16px;
+  background-color: #fff;
+}
+.offsf_search label {
+  margin-right: 10px;
+}
+.offsf_search input {
+  border: none;
+  width: 250px;
+  background-color: transparent;
+}
+.offsf_search input:focus {
+  border: none;
+  outline: none;
+}
+.kbhw_gettingstill {
+  display: flex;
+  /* justify-content: center; */
+  gap: 30px;
+  margin-top: 8px;
+}
+.kbhwg_getting1 {
+  width: calc(25% - 20px);
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 28px; 
+  text-decoration: none;
+}
+.kg_icon {
+  margin-bottom: 28px;
+  display:flex;
+  justify-content: center;
+}
+
+.kg_icon img{
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+}
+.kbhwg_getting1 h5 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #131523;
+  margin-bottom: 24px;
+}
+.kbhwg_getting1 p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #131523;
+}
+.kbhwg_getting1 span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #1e5eff;
+  display: block;
+  margin-top: 24px;
+}
+.communitForum {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+.cf_forum {
+  background-color: #fff;
+  padding: 28px;
+  border-radius: 6px;
+  width: 100%;
+}
+.cf_forum h5 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #131523;
+  margin-bottom: 12px;
+}
+.cf_forum p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #131523;
+  margin-bottom: 20px;
+}
+.cf_forum span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #1e5eff;
+}
+.help_need {
+  border-top: 2px solid #d9e1ec;
+  padding-top: 35px;
+  margin-top: 30px;
+  text-align: center;
+}
+.help_need h5 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #131523;
+  margin-bottom: 8px;
+}
+.help_need p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #5a607f;
+  margin-bottom: 28px;
+}
+.help_need button {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+  padding: 10px 30px;
+  background-color: #1e5eff;
+  border: none;
+  border-radius: 6px;
+}

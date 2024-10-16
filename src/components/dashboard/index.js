@@ -16,7 +16,92 @@ import img3 from "../../assets/images/table3.png";
 import img4 from "../../assets/images/table4.png";
 import image6 from "../../assets/images/chart4.png";
 import image7 from "../../assets/images/graph1.png";
+import ReactECharts from 'echarts-for-react';
+const option = {
+  xAxis: {
+    type: 'category',
+    data: [
+      '4am', '5am', '6am', '7am', '8am', '9am', '10am', '11am',
+      '12am', '1pm', '2pm', '3pm'
+    ],
+  },    legend: {
+    // Try 'horizontal'
+    orient: 'horizontal',
+    right: 10,
+    top: 0
+  },
+  yAxis: {
+    type: 'value',
+    splitLine: {
+      show: true,
+      lineStyle: {
+        color: ["#cccccc"],
+        type: "dashed",
+        width: 1,
+      },
+    }
+  },
+  grid: {
+    top: 30,
+    right: 30,
+    left: 30,
+    bottom: 30
+  },
+  series: [
+    {
+      name: 'May 21',
+      itemStyle: {normal: {color: '#1E5EFF'}},
+      data: [10, 5, 15, 11, 25, 35, 30, 33, 50, 45, 27, 25, 35, 30],
+      type: 'line'
+    },
+    {
+      name: 'May 22',
+      itemStyle: {normal: {color: '#D9E1EC'}},
+      data: [35, 10, 6, 5, 25, 26, 30, 10, 20, 35, 45, 50],
+      type: 'line'
+    }
+  ] 
+};
+const salesChart = {
+  tooltip: {
+    trigger: "item",
+    formatter: "{a} <br/>{b} : {c} ({d}%), <br/>{name1} : {value1} ",
+  },
 
+  color: "#1fd286",
+
+  xAxis: {
+    type: "category",
+    data: ["12", "13", "14", "15", "16", "17"],  
+  axisLine: { show: false },
+  axisTick: { show: false },
+    
+  },
+  yAxis: {
+    type: "value",
+    axisLabel:{
+      show:false,
+    },
+    splitLine:{ show:false},
+  },
+  series: [
+    {
+      data: [10, 15, 10, 25, 34, 30, 30, 34, 50, 44, 25, 25, 35],
+      type: "bar",
+      barWidth: "10",
+      height: "40%",
+
+      itemStyle: {
+        emphasis: {
+          barBorderRadius: [50, 50],
+        },
+        normal: {
+          barBorderRadius: [50, 50, ],
+        },
+      },
+    },
+  ],
+};
 const Dashboard = () => {
   return (
     <>
@@ -103,16 +188,16 @@ const Dashboard = () => {
                             <p>Orders on May 21</p>
                           </div>
                           <div className={styles.dom_month3}>
-                            <p>
+                            {/* <p>
                               <span></span>May 21
                             </p>
                             <p>
                               <span></span>May 21
-                            </p>
+                            </p> */}
                           </div>
                         </div>
                         <div className={styles.db_chartImage}>
-                          <img src={image6} />
+                        <ReactECharts option={option} />
                         </div>
                       </div>
                       <div className={styles.dwgib_bigOrder2}>
@@ -127,7 +212,7 @@ const Dashboard = () => {
                             <span>Revenue</span>
                           </p>
                           <div className={styles.dwbi_chartImg}>
-                            <img src={image7} />
+                          <ReactECharts option={salesChart} />
                           </div>
                         </div>
                       </div>

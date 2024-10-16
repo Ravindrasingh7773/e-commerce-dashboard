@@ -1,0 +1,105 @@
+.introduction_product {
+    padding: 28px;
+    background-color: #fff;
+  }
+  .introduction_product h5 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #131523;
+    margin-bottom: 24px;
+  }
+  .ip_product {
+    padding-bottom: 28px;
+    border-bottom: 1px solid #e6e9f4;
+    margin-bottom: 40px;
+  }
+  .ip_product p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #131523;
+    margin-bottom: 24px;
+  }
+  .ip_product .ipp_recomm {
+    padding: 20px;
+    background-color: #f5f6fa;
+    border-radius: 4px;
+  }
+  .ip_product .ipp_recomm span {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #5a607f;
+  }
+  .starting_guide {
+    padding-bottom: 28px;
+    border-bottom: 1px solid #e6e9f4;
+    margin-bottom: 40px;
+  }
+  .starting_guide p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #131523;
+    margin-bottom: 20px;
+  }
+  .starting_guide ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .starting_guide ul li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .starting_guide ul li span:first-child {
+    width: 36px;
+    height: 36px;
+    display: block;
+    background-color: #f5f6fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5a607f;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .additional_info {
+  }
+  .additional_info ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .additional_info ul > li > a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #5a607f;
+    position: relative;
+  }
+  .additional_info ul > li > a::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    border: 1px solid;
+    top: 30px;
+    left: 0;
+    opacity: 0;
+    transition: all ease 0.4s;
+  }
+  .additional_info ul > li > a:focus::after,
+  .additional_info ul > li > a:focus {
+    width: 100%;
+    color: #1e5eff;
+    opacity: 1;
+  }
+  

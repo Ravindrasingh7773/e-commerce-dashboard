@@ -1,0 +1,48 @@
+.delete_item {position: fixed;
+  inset: 0;
+  padding:100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+.di_inner {
+  max-width: 500px;
+  width: 100%;
+  border: 1px solid #f2f4f9;
+  padding: 28px;
+  box-shadow: 1px 1px 5px #b1b2b6;
+}
+.dii_delete {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.dii_delete span:first-child {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #131523;
+}
+.di_inner p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #131523;
+  padding-bottom: 40px;
+}
+.dii_cancel {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 28px;
+}
+.dii_cancel span:first-child {
+  color: #f0142f;
+}
+.dii_cancel span:last-child {
+  background: #f0142f;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
