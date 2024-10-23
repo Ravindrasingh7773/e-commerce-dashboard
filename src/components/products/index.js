@@ -17,6 +17,8 @@ const Products = () => {
           title2={"Add Product"}
           icon={false}
           fillBtn={true}
+          fillPath={"/addProducts"}
+          fillTitle={"Add Product"}
         />
         <div className={styles.o_orders_filter}>
           <div className={styles.oof_wrapper}>

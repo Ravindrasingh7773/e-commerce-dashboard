@@ -7,14 +7,11 @@ import { Outlet } from 'react-router-dom';
 
 const Layout = () => {
   const location = useLocation();
-
-  // Define the paths where the layout should not appear
+ 
   const excludedPaths = ['/registrationComplete', '/login', '/passwordReset', '/createAccount', '/comfirmaEmail', '/deleteItem'];
-
-  // Check if the current path is excluded
+ 
   const isExcludedPath = excludedPaths.includes(location.pathname);
-
-  // Conditionally render the layout
+ 
   return (
     <Fragment>
       {!isExcludedPath && (

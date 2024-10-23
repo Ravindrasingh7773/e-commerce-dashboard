@@ -1,72 +1,286 @@
-[
+ [
     {
-        "id": 1,
-        "name": "Rakesh Mishra",
-        "area": "Sawaynchester",
-        "count": 5,
-        "price": "$96.14"
+      "customerInformation": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "emailAddress": "john.doe@example.com",
+        "phoneNumber": "+1 123-456-7890"
+      },
+      "customerAddress": {
+        "address": "123 Maple Street",
+        "apartment": "Apt 101",
+        "city": "New York",
+        "country": "United States",
+        "postalCode": "10001",
+        "phone": "+1 123-456-7890"
+      },
+      "customerNotes": {
+        "notes": "Preferred delivery in the afternoon."
+      },
+      "orders": 5,
+      "totalSpent": 350.00
     },
     {
-        "id": 2,
-        "name": "Lakshman singh",
-        "area": "Marne",
-        "count": 72,
-        "price": "$50.37"
+      "customerInformation": {
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "emailAddress": "jane.smith@example.com",
+        "phoneNumber": "+44 20 7946 0958"
+      },
+      "customerAddress": {
+        "address": "456 Oak Lane",
+        "apartment": "Flat 3B",
+        "city": "London",
+        "country": "United Kingdom",
+        "postalCode": "E1 6AN",
+        "phone": "+44 20 7946 0958"
+      },
+      "customerNotes": {
+        "notes": "Requires signature on delivery."
+      },
+      "orders": 8,
+      "totalSpent": 425.00
     },
     {
-        "id": 3,
-        "name": "Dinanath sah",
-        "area": "Curtice",
-        "count": 6,
-        "price": "$281.88"
+      "customerInformation": {
+        "firstName": "Alex",
+        "lastName": "Johnson",
+        "emailAddress": "alex.johnson@example.com",
+        "phoneNumber": "+61 7 3123 4567"
+      },
+      "customerAddress": {
+        "address": "789 Pine Road",
+        "apartment": "Unit 4",
+        "city": "Brisbane",
+        "country": "Australia",
+        "postalCode": "4000",
+        "phone": "+61 7 3123 4567"
+      },
+      "customerNotes": {
+        "notes": "Leave package at the front door."
+      },
+      "orders": 3,
+      "totalSpent": 150.00
     },
     {
-        "id": 4,
-        "name": "Anmol yadav",
-        "area": "Dexter",
-        "count": 3,
-        "price": "$220.95"
+      "customerInformation": {
+        "firstName": "Maria",
+        "lastName": "Garcia",
+        "emailAddress": "maria.garcia@example.com",
+        "phoneNumber": "+34 91 123 4567"
+      },
+      "customerAddress": {
+        "address": "101 Birch Avenue",
+        "apartment": "2nd Floor",
+        "city": "Madrid",
+        "country": "Spain",
+        "postalCode": "28001",
+        "phone": "+34 91 123 4567"
+      },
+      "customerNotes": {
+        "notes": "Please call before delivery."
+      },
+      "orders": 6,
+      "totalSpent": 275.00
     },
     {
-        "id": 5,
-        "name": "Raushan singh Rajput",
-        "area": "Clay",
-        "count": 15,
-        "price": "$435.61"
+      "customerInformation": {
+        "firstName": "Liam",
+        "lastName": "O'Connor",
+        "emailAddress": "liam.oconnor@example.com",
+        "phoneNumber": "+353 1 234 5678"
+      },
+      "customerAddress": {
+        "address": "23 Cedar Drive",
+        "apartment": "House 5",
+        "city": "Dublin",
+        "country": "Ireland",
+        "postalCode": "D02"
+      },
+      "customerNotes": {
+        "notes": "Deliver after 5 PM."
+      },
+      "orders": 10,
+      "totalSpent": 600.00
     },
     {
-        "id": 6,
-        "name": "Lokesh Rahul",
-        "area": "Freeburn",
-        "count": 12,
-        "price": "$74.83"
+      "customerInformation": {
+        "firstName": "Sofia",
+        "lastName": "Rossi",
+        "emailAddress": "sofia.rossi@example.com",
+        "phoneNumber": "+39 06 123 4567"
+      },
+      "customerAddress": {
+        "address": "8 Chestnut Blvd",
+        "apartment": "Flat 7",
+        "city": "Rome",
+        "country": "Italy",
+        "postalCode": "00100"
+      },
+      "customerNotes": {
+        "notes": "Leave at concierge."
+      },
+      "orders": 2,
+      "totalSpent": 125.00
     },
     {
-        "id": 7,
-        "name": "Randhir Kumar",
-        "area": "Franeckiview",
-        "count": 5,
-        "price": "$25.18"
+      "customerInformation": {
+        "firstName": "David",
+        "lastName": "Miller",
+        "emailAddress": "david.miller@example.com",
+        "phoneNumber": "+1 213-555-6789"
+      },
+      "customerAddress": {
+        "address": "200 Elm St",
+        "apartment": "Apt 2A",
+        "city": "Los Angeles",
+        "country": "United States",
+        "postalCode": "90001"
+      },
+      "customerNotes": {
+        "notes": "Ring doorbell twice."
+      },
+      "orders": 7,
+      "totalSpent": 450.00
     },
     {
-        "id": 8,
-        "name": "Khushi Kumari",
-        "area": "Port Kathryne",
-        "count": 7,
-        "price": "$113.39"
+      "customerInformation": {
+        "firstName": "Yuki",
+        "lastName": "Tanaka",
+        "emailAddress": "yuki.tanaka@example.com",
+        "phoneNumber": "+81 3-1234-5678"
+      },
+      "customerAddress": {
+        "address": "4 Sakura Street",
+        "apartment": "Building C",
+        "city": "Tokyo",
+        "country": "Japan",
+        "postalCode": "100-0001"
+      },
+      "customerNotes": {
+        "notes": "Deliver between 9 AM and 12 PM."
+      },
+      "orders": 9,
+      "totalSpent": 525.00
     },
     {
-        "id": 9,
-        "name": "Pooja Kumari",
-        "area": "McGlynntown",
-        "count": 14,
-        "price": "$80.80"
+      "customerInformation": {
+        "firstName": "Carlos",
+        "lastName": "Diaz",
+        "emailAddress": "carlos.diaz@example.com",
+        "phoneNumber": "+52 55 1234 5678"
+      },
+      "customerAddress": {
+        "address": "321 Palm Ave",
+        "apartment": "Floor 3",
+        "city": "Mexico City",
+        "country": "Mexico",
+        "postalCode": "01000"
+      },
+      "customerNotes": {
+        "notes": "Call ahead for delivery."
+      },
+      "orders": 4,
+      "totalSpent": 210.00
     },
     {
-        "id": 10,
-        "name": "Ruhi Kumari",
-        "area": "Krystalview",
-        "count": 5,
-        "price": "$42.03"
+      "customerInformation": {
+        "firstName": "Olga",
+        "lastName": "Ivanova",
+        "emailAddress": "olga.ivanova@example.com",
+        "phoneNumber": "+7 495 123 4567"
+      },
+      "customerAddress": {
+        "address": "15 Walnut Street",
+        "apartment": "Apt 9",
+        "city": "Moscow",
+        "country": "Russia",
+        "postalCode": "101000"
+      },
+      "customerNotes": {
+        "notes": "Prefer weekend delivery."
+      },
+      "orders": 12,
+      "totalSpent": 800.00
+    },
+    {
+      "customerInformation": {
+        "firstName": "Pierre",
+        "lastName": "Dupont",
+        "emailAddress": "pierre.dupont@example.com",
+        "phoneNumber": "+33 1 234 5678"
+      },
+      "customerAddress": {
+        "address": "17 Beech Lane",
+        "apartment": "Suite 12",
+        "city": "Paris",
+        "country": "France",
+        "postalCode": "75001"
+      },
+      "customerNotes": {
+        "notes": "Drop at the building reception."
+      },
+      "orders": 15,
+      "totalSpent": 950.00
+    },
+    {
+      "customerInformation": {
+        "firstName": "Ananya",
+        "lastName": "Sharma",
+        "emailAddress": "ananya.sharma@example.com",
+        "phoneNumber": "+91 22 2345 6789"
+      },
+      "customerAddress": {
+        "address": "10 Banyan Street",
+        "apartment": "Tower B",
+        "city": "Mumbai",
+        "country": "India",
+        "postalCode": "400001"
+      },
+      "customerNotes": {
+        "notes": "Package to be kept at security."
+      },
+      "orders": 11,
+      "totalSpent": 675.00
+    },
+    {
+      "customerInformation": {
+        "firstName": "Markus",
+        "lastName": "Schmidt",
+        "emailAddress": "markus.schmidt@example.com",
+        "phoneNumber": "+49 30 1234 5678"
+      },
+      "customerAddress": {
+        "address": "76 Oak Street",
+        "apartment": "Unit 8",
+        "city": "Berlin",
+        "country": "Germany",
+        "postalCode": "10117"
+      },
+      "customerNotes": {
+        "notes": "Deliver to office."
+      },
+      "orders": 14,
+      "totalSpent": 775.00
+    },
+    {
+      "customerInformation": {
+        "firstName": "Chen",
+        "lastName": "Li",
+        "emailAddress": "chen.li@example.com",
+        "phoneNumber": "+86 10 1234 5678"
+      },
+      "customerAddress": {
+        "address": "89 Bamboo Grove",
+        "apartment": "Apt 10",
+        "city": "Beijing",
+        "country": "China",
+        "postalCode": "100010"
+      },
+      "customerNotes": {
+        "notes": "No weekend delivery."
+      },
+      "orders": 13,
+      "totalSpent": 840.00
     }
-]
+  ] 

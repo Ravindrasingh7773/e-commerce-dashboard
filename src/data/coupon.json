@@ -1,158 +1,172 @@
-[
-  {
-    "id": 1,
-    "couponCode": "COUPON101",
-    "couponName": "30% Off",
-    "couponType": "percentage discount",
-    "discountValue": 30,
-    "appliesTo": "all products",
-    "duration": {
-      "startDate": "2024-10-01",
-      "endDate": "2024-12-31"
+ [
+    {
+      "couponCode": "Shipfree20",
+      "couponName": "Free Shipping",
+      "couponType": "Fixed Discount",
+      "discountValue": 10,
+      "appliesTo": "All Products",
+      "duration": {
+        "startDate": "2024-10-01",
+        "endDate": "2024-12-31",
+        "setDuration": true
+      },
+      "usageLimits": {
+        "amountOfUses": 100,
+        "unlimitedUses": false
+      },
+      "status": "active"
     },
-    "usageLimit": 100
-  },
-  {
-    "id": 2,
-    "couponCode": "COUPON102",
-    "couponName": "$25 Off",
-    "couponType": "fixed discount",
-    "discountValue": 25,
-    "appliesTo": "specific product",
-    "duration": {
-      "startDate": "2024-09-01",
-      "endDate": "2024-12-01"
+    {
+      "couponCode": "SAVE10",
+      "couponName": "Save 10%",
+      "couponType": "Percentage Discount",
+      "discountValue": 10,
+      "appliesTo": "Selected Categories",
+      "duration": {
+        "startDate": "2024-11-01",
+        "endDate": "2024-11-30",
+        "setDuration": true
+      },
+      "usageLimits": {
+        "amountOfUses": null,
+        "unlimitedUses": true
+      },
+      "status": "active"
     },
-    "usageLimit": 75
-  },
-  {
-    "id": 3,
-    "couponCode": "COUPON103",
-    "couponName": "15% Off",
-    "couponType": "percentage discount",
-    "discountValue": 15,
-    "appliesTo": "specific category",
-    "duration": {
-      "startDate": "2024-11-01",
-      "endDate": "2024-12-31"
+    {
+      "couponCode": "FREESHIP",
+      "couponName": "Free Shipping",
+      "couponType": "Free Shipping",
+      "discountValue": 0,
+      "appliesTo": "Orders Over $50",
+      "duration": {
+        "startDate": "2024-09-15",
+        "endDate": "2024-10-15",
+        "setDuration": true
+      },
+      "usageLimits": {
+        "amountOfUses": 50,
+        "unlimitedUses": false
+      },
+      "status": "expired"
     },
-    "usageLimit": 50
-  },
-  {
-    "id": 4,
-    "couponCode": "COUPON104",
-    "couponName": "Free Shipping",
-    "couponType": "free shipping",
-    "discountValue": 0,
-    "appliesTo": "all products",
-    "duration": {
-      "startDate": "2024-10-15",
-      "endDate": "2024-12-31"
+    {
+      "couponCode": "EXTRA5",
+      "couponName": "Extra 5% Off",
+      "couponType": "Percentage Discount",
+      "discountValue": 5,
+      "appliesTo": "All Products",
+      "duration": {
+        "startDate": "2024-10-01",
+        "endDate": null,
+        "setDuration": false
+      },
+      "usageLimits": {
+        "amountOfUses": null,
+        "unlimitedUses": true
+      },
+      "status": "active"
     },
-    "usageLimit": 150
-  },
-  {
-    "id": 5,
-    "couponCode": "COUPON105",
-    "couponName": "$40 Off",
-    "couponType": "fixed discount",
-    "discountValue": 40,
-    "appliesTo": "specific product",
-    "duration": {
-      "startDate": "2024-09-01",
-      "endDate": "2024-12-01"
+    {
+      "couponCode": "BUY1GET1",
+      "couponName": "Buy 1 Get 1 Free",
+      "couponType": "Price Discount",
+      "discountValue": 0,
+      "appliesTo": "Selected Products",
+      "duration": {
+        "startDate": "2024-11-15",
+        "endDate": "2024-12-15",
+        "setDuration": true
+      },
+      "usageLimits": {
+        "amountOfUses": 200,
+        "unlimitedUses": false
+      },
+      "status": "active"
     },
-    "usageLimit": 30
-  },
-  {
-    "id": 6,
-    "couponCode": "COUPON106",
-    "couponName": "50% Off",
-    "couponType": "percentage discount",
-    "discountValue": 50,
-    "appliesTo": "all products",
-    "duration": {
-      "startDate": "2024-10-01",
-      "endDate": "2024-12-31"
+    {
+      "couponCode": "WELCOME20",
+      "couponName": "Welcome 20% Off",
+      "couponType": "Percentage Discount",
+      "discountValue": 20,
+      "appliesTo": "New Customers",
+      "duration": {
+        "startDate": "2024-10-01",
+        "endDate": "2024-11-01",
+        "setDuration": true
+      },
+      "usageLimits": {
+        "amountOfUses": null,
+        "unlimitedUses": true
+      },
+      "status": "active"
     },
-    "usageLimit": 20
-  },
-  {
-    "id": 7,
-    "couponCode": "COUPON107",
-    "couponName": "$15 Off",
-    "couponType": "fixed discount",
-    "discountValue": 15,
-    "appliesTo": "specific category",
-    "duration": {
-      "startDate": "2024-11-01",
-      "endDate": "2024-12-31"
+    {
+      "couponCode": "BLACKFRIDAY",
+      "couponName": "Black Friday Deal",
+      "couponType": "Fixed Discount",
+      "discountValue": 50,
+      "appliesTo": "All Products",
+      "duration": {
+        "startDate": "2024-11-29",
+        "endDate": "2024-11-29",
+        "setDuration": true
+      },
+      "usageLimits": {
+        "amountOfUses": 500,
+        "unlimitedUses": false
+      },
+      "status": "active"
     },
-    "usageLimit": 80
-  },
-  {
-    "id": 8,
-    "couponCode": "COUPON108",
-    "couponName": "Free Shipping",
-    "couponType": "free shipping",
-    "discountValue": 0,
-    "appliesTo": "specific product",
-    "duration": {
-      "startDate": "2024-09-01",
-      "endDate": "2024-12-01"
+    {
+      "couponCode": "SUMMERFUN",
+      "couponName": "Summer Fun 15% Off",
+      "couponType": "Percentage Discount",
+      "discountValue": 15,
+      "appliesTo": "Summer Collection",
+      "duration": {
+        "startDate": "2024-07-01",
+        "endDate": "2024-07-31",
+        "setDuration": true
+      },
+      "usageLimits": {
+        "amountOfUses": 300,
+        "unlimitedUses": false
+      },
+      "status": "expired"
     },
-    "usageLimit": 45
-  },
-  {
-    "id": 9,
-    "couponCode": "COUPON109",
-    "couponName": "20% Off",
-    "couponType": "percentage discount",
-    "discountValue": 20,
-    "appliesTo": "specific category",
-    "duration": {
-      "startDate": "2024-10-01",
-      "endDate": "2024-12-31"
+    {
+      "couponCode": "CYBERMONDAY",
+      "couponName": "Cyber Monday Special",
+      "couponType": "Price Discount",
+      "discountValue": 75,
+      "appliesTo": "Electronics",
+      "duration": {
+        "startDate": "2024-12-02",
+        "endDate": "2024-12-02",
+        "setDuration": true
+      },
+      "usageLimits": {
+        "amountOfUses": 1000,
+        "unlimitedUses": false
+      },
+      "status": "active"
     },
-    "usageLimit": 60
-  },
-  {
-    "id": 10,
-    "couponCode": "COUPON110",
-    "couponName": "$10 Off",
-    "couponType": "fixed discount",
-    "discountValue": 10,
-    "appliesTo": "all products",
-    "duration": {
-      "startDate": "2024-11-15",
-      "endDate": "2024-12-15"
-    },
-    "usageLimit": 25
-  },
-  {
-    "id": 11,
-    "couponCode": "COUPON111",
-    "couponName": "Free Shipping",
-    "couponType": "free shipping",
-    "discountValue": 0,
-    "appliesTo": "specific category",
-    "duration": {
-      "startDate": "2024-09-01",
-      "endDate": "2024-12-31"
-    },
-    "usageLimit": 100
-  },
-  {
-    "id": 12,
-    "couponCode": "COUPON112",
-    "couponName": "35% Off",
-    "couponType": "percentage discount",
-    "discountValue": 35,
-    "appliesTo": "all products",
-    "duration": {
-      "startDate": "2024-10-01",
-      "endDate": "2024-12-31"
-    },
-    "usageLimit": 70
-  }
-]
+    {
+      "couponCode": "NEWYEAR50",
+      "couponName": "New Year 50% Off",
+      "couponType": "Percentage Discount",
+      "discountValue": 50,
+      "appliesTo": "All Products",
+      "duration": {
+        "startDate": "2024-12-31",
+        "endDate": "2025-01-01",
+        "setDuration": true
+      },
+      "usageLimits": {
+        "amountOfUses": null,
+        "unlimitedUses": true
+      },
+      "status": "active"
+    }
+  ] 

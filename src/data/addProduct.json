@@ -1,0 +1,204 @@
+[
+  {
+    "productName": "Summer T-Shirt",
+    "productDescription": "A lightweight and breathable t-shirt perfect for summer.",
+    "images": ["summer_tshirt1.jpg", "summer_tshirt2.jpg"],
+    "price": {
+      "productPrice": 25.0,
+      "discountPrice": 20.0,
+      "addTax": true
+    },
+    "hasMultipleOptions": true,
+    "options": [
+      {
+        "optionType": "Size",
+        "values": ["S", "M", "L", "XL", "XXL"]
+      }
+    ],
+    "shipping": {
+      "weight": "0.5 kg",
+      "country": "United States",
+      "isDigital": false
+    }
+  },
+  {
+    "productName": "Winter Jacket",
+    "productDescription": "A warm and comfortable jacket for cold weather.",
+    "images": ["winter_jacket1.jpg", "winter_jacket2.jpg"],
+    "price": {
+      "productPrice": 120.0,
+      "discountPrice": 100.0,
+      "addTax": true
+    },
+    "hasMultipleOptions": true,
+    "options": [
+      {
+        "optionType": "Size",
+        "values": ["S", "M", "L", "XL", "XXL"]
+      },
+      {
+        "optionType": "Color",
+        "values": ["Black", "Gray", "Navy"]
+      }
+    ],
+    "shipping": {
+      "weight": "1.5 kg",
+      "country": "Canada",
+      "isDigital": false
+    }
+  },
+  {
+    "productName": "Digital Art Print",
+    "productDescription": "A high-resolution digital art print ready for download.",
+    "images": ["art_print.jpg"],
+    "price": {
+      "productPrice": 15.0,
+      "discountPrice": 10.0,
+      "addTax": false
+    },
+    "hasMultipleOptions": false,
+    "options": [],
+    "shipping": {
+      "weight": "0",
+      "country": null,
+      "isDigital": true
+    }
+  },
+  {
+    "productName": "Leather Wallet",
+    "productDescription": "Premium leather wallet with multiple compartments.",
+    "images": ["leather_wallet1.jpg"],
+    "price": {
+      "productPrice": 50.0,
+      "discountPrice": 45.0,
+      "addTax": true
+    },
+    "hasMultipleOptions": false,
+    "options": [],
+    "shipping": {
+      "weight": "0.2 kg",
+      "country": "United States",
+      "isDigital": false
+    }
+  },
+  {
+    "productName": "Running Shoes",
+    "productDescription": "Comfortable running shoes designed for performance.",
+    "images": ["running_shoes1.jpg", "running_shoes2.jpg"],
+    "price": {
+      "productPrice": 80.0,
+      "discountPrice": 70.0,
+      "addTax": true
+    },
+    "hasMultipleOptions": true,
+    "options": [
+      {
+        "optionType": "Size",
+        "values": ["7", "8", "9", "10", "11"]
+      },
+      {
+        "optionType": "Color",
+        "values": ["Red", "Blue", "Black"]
+      }
+    ],
+    "shipping": {
+      "weight": "0.8 kg",
+      "country": "United Kingdom",
+      "isDigital": false
+    }
+  },
+  {
+    "productName": "Bluetooth Headphones",
+    "productDescription": "Wireless Bluetooth headphones with noise cancellation.",
+    "images": ["headphones1.jpg"],
+    "price": {
+      "productPrice": 150.0,
+      "discountPrice": 130.0,
+      "addTax": true
+    },
+    "hasMultipleOptions": false,
+    "options": [],
+    "shipping": {
+      "weight": "0.4 kg",
+      "country": "Germany",
+      "isDigital": false
+    }
+  },
+  {
+    "productName": "Smartphone Case",
+    "productDescription": "Durable smartphone case with shock protection.",
+    "images": ["phone_case1.jpg", "phone_case2.jpg"],
+    "price": {
+      "productPrice": 20.0,
+      "discountPrice": 18.0,
+      "addTax": false
+    },
+    "hasMultipleOptions": true,
+    "options": [
+      {
+        "optionType": "Model",
+        "values": ["iPhone X", "iPhone 11", "iPhone 12"]
+      },
+      {
+        "optionType": "Color",
+        "values": ["Black", "White", "Blue"]
+      }
+    ],
+    "shipping": {
+      "weight": "0.1 kg",
+      "country": "France",
+      "isDigital": false
+    }
+  },
+  {
+    "productName": "Gaming Mouse",
+    "productDescription": "High-precision gaming mouse with customizable buttons.",
+    "images": ["gaming_mouse.jpg"],
+    "price": {
+      "productPrice": 60.0,
+      "discountPrice": 50.0,
+      "addTax": true
+    },
+    "hasMultipleOptions": false,
+    "options": [],
+    "shipping": {
+      "weight": "0.3 kg",
+      "country": "United States",
+      "isDigital": false
+    }
+  },
+  {
+    "productName": "E-book Reader",
+    "productDescription": "Portable e-book reader with a high-resolution display.",
+    "images": ["ebook_reader.jpg"],
+    "price": {
+      "productPrice": 100.0,
+      "discountPrice": 90.0,
+      "addTax": true
+    },
+    "hasMultipleOptions": false,
+    "options": [],
+    "shipping": {
+      "weight": "0.4 kg",
+      "country": "Japan",
+      "isDigital": false
+    }
+  },
+  {
+    "productName": "Digital Course",
+    "productDescription": "An online course covering web development fundamentals.",
+    "images": ["course_cover.jpg"],
+    "price": {
+      "productPrice": 200.0,
+      "discountPrice": 150.0,
+      "addTax": false
+    },
+    "hasMultipleOptions": false,
+    "options": [],
+    "shipping": {
+      "weight": "0",
+      "country": null,
+      "isDigital": true
+    }
+  }
+]

@@ -1,0 +1,119 @@
+.add_products {
+  background-color: #f5f6fa;
+}
+.ap_productInfo {
+}
+.app_wrapper {
+  display: flex;
+
+  justify-content: space-between;
+}
+.aw_information,
+.aw_categries {
+  width: 100%;
+}
+.awi_warpper > h5,
+.awiw_image h5,
+.awi_price h4,
+.awi_differentOf h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #131523;
+  margin-bottom: 24px;
+}
+.awiw_productName {
+  margin-bottom: 24px;
+}
+.awiw_productName > label,
+.awiw_productDescription > label,
+.awiwi_addFile > p,
+.ap_productPrice .app1 > label {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #5a607f;
+}
+.awiw_productName > input,
+.app11 > input {
+  width: 100%;
+  border: 1px solid #d9e1ec;
+  padding: 10px 16px;
+}
+.awiw_productDescription > textarea {
+  width: 100%;
+  border: 1px solid #d9e1ec;
+  height: 96px;
+}
+.awi_warpper > hr,
+.awi_price hr {
+  border: 1px solid #d7dbec;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.awiwi_addFile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px dashed #9598a3;
+  padding: 48px 0;
+  width: 100%;
+}
+.awiwi_addFile > span {
+  border: 1px solid #d7dbec;
+  background-color: transparent;
+  color: #1e5eff;
+  padding: 8px 15px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+.ap_productPrice {
+  display: flex;
+
+  justify-content: space-between;
+  gap: 28px;
+  margin-bottom: 24px;
+}
+.ap_productPrice .app11 {
+  width: 100%;
+}
+.awi_tex_product span,
+.awi_tex_product1 span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #131523;
+}
+.awi_tex_product .atp_btn {
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  background-color: #1e5eff;
+  border-radius: 20px;
+  cursor: pointer;
+  position: relative;
+}
+.awi_tex_product .atp_btn:active {
+  background-color: #9598a3;
+}
+.awi_tex_product .atp_btn::after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 30px;
+  top: 5px;
+  left: 5px;
+}
+.awi_tex_product .atp_btn::after:active {
+  left: 10px;
+}
+.awi_tex_product1 {
+  margin-bottom: 40px;
+}

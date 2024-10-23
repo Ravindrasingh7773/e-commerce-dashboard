@@ -7,8 +7,8 @@ const MainDashboardHeading = ({
   title,
   icon = true,
   title1,
-  outlineBtn,FillTitle,fillPath,
-  fillBtn,
+  outlineBtn,fillTitle,fillPath,
+  fillBtn,fillIcon=true
 }) => {
   return (
     <>
@@ -31,10 +31,12 @@ const MainDashboardHeading = ({
         {fillBtn && (
           <div className={styles.dwmt_manag2}>
             <Link to={fillPath}>
+              {fillIcon ?
               <span>
-                <PlusIcon />
-              </span>
-              <span>{FillTitle}</span>
+              <PlusIcon />
+            </span>:
+            ""}
+              <span>{fillTitle}</span>
             </Link>
           </div>
         )}

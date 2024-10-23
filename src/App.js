@@ -17,6 +17,9 @@ import Report from "./components/report";
 import Coupons from "./components/coupons";
 import KnowledgeBase from "./components/knowledegBase";
 import IntroductionProduct from "./components/introduction";
+import AddCustomer from "./components/addCustomer";
+import AddProducts from "./components/addProducts";
+import CreateCoupon from "./components/createCoupon";
 function App() {
   return (
     <> 
@@ -37,8 +40,11 @@ function App() {
           <Route path="/customers" element={<Customer />} />
           <Route path="/customerInfo" element={<CustomerInfo />} />
           <Route path="/reports" element={<Report />} />
+          <Route path="/addCustomers" element={<AddCustomer />} />
+          <Route path="/addProducts" element={<AddProducts />} />
           <Route path="/coupons" element={<Coupons />} />
           <Route path="/knowledgeBase" element={<KnowledgeBase />} />
+          <Route path="/createCoupons" element={<CreateCoupon />} />
           <Route path="/introductionProduct" element={<IntroductionProduct />} />
         </Route>
       </Routes>

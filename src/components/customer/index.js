@@ -18,6 +18,7 @@ const Customer = ({ tag, name, area, count, price }) => {
         title1={"Export"}
         title2={"Add Customer"}
         icon={false}
+        fillPath={"/addCustomers"}
       />
       <div className={styles.c_name}>
         <div className={styles.cn_wrapper}>
@@ -63,22 +64,21 @@ const Customer = ({ tag, name, area, count, price }) => {
                   <th>Location</th>
                   <th>Orders</th>
                   <th>Spent</th>
-                </tr> 
+                </tr>   
                 {cutomerData.map((item, index) => (
                   <tr key={index}>
                     <td className={styles.od_tr_paid3}>
                       <div className={styles.otp_img}>
-                        <input type="checkbox" />
-
-                        <span>{item.name[0]}</span>
+                        <input type="checkbox" /> 
+                        <span>{item.customerInformation.firstName[0]}</span>
                         <h5>
-                          <p>{item.name}</p>
+                          <p>{item.customerInformation.firstName}{item.customerInformation.lastName}</p>
                         </h5>
                       </div>
                     </td>
-                    <td>{item.area}</td>
-                    <td>{item.count}</td>
-                    <td className={styles.od_tr_paid1}>{item.price}</td>
+                    <td>{item.customerAddress.city}</td>
+                    <td>{item.orders}</td>
+                    <td className={styles.od_tr_paid1}>${item.totalSpent}</td>
                   </tr>
                 ))} 
               </table>

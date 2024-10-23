@@ -1,0 +1,65 @@
+.createCop {
+  background-color: #f9f9f9;
+}
+.create_coupon {
+  padding: 40px 40px 40px 40px;
+
+  border-radius: 8px;
+}
+.create_coupon form {
+  background-color: #fff;
+  padding: 40px 40px 40px 40px;
+}
+.cc_couponInfo h2 {
+}
+.cc_couponInfo p {
+  margin-bottom: 24px;
+}
+.cc_couponInfo hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 1px solid #e6e9f4;
+}
+.ccc_code_name {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 24px;
+}
+.cccct_discount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.cccctd1 {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #d7dbec;
+  border-radius: 4px;
+  padding: 30px 30px;
+}
+.cccctd1 p {
+  margin: 0;
+}
+.coupon_code,
+.coupon_name {
+  flex: 1;
+  width: 100%;
+}
+.coupon_code label,
+.coupon_name label {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #5a607f;
+}
+.duration_checkbox {
+  margin-top: 15px;
+}
+.duration_checkbox input {
+  width: 20px;
+}

@@ -1,0 +1,126 @@
+.ad_container {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.form_container {
+  /* max-width: 800px; */
+  /* margin: 0 auto; */
+  padding: 0px 40px 40px 40px;
+}
+
+.fc_customerInfo h2,
+.fc_customerInfo1 h2,
+.fc_customerInfo2 h2 {
+  margin-bottom: 10px;
+  color: #212529;
+}
+
+.fc_customerInfo p,
+.fc_customerInfo1 p,
+.fc_customerInfo2 p {
+  margin-bottom: 20px;
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.fc_customerInfo,
+.fc_customerInfo1 {
+  margin-bottom: 40px;
+}
+
+.fcci_form {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.ff_form {
+  flex: 1;
+}
+.fcci_form1 {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #343a40;
+}
+.ad_hr {
+  border: 1px solid #e6e9f4;
+  margin-bottom: 28px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #495057;
+  outline: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+.error {
+  color: #e3342f;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.btn-cancel {
+  background-color: #f1f3f5;
+  color: #495057;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-cancel:hover {
+  background-color: #e2e6ea;
+}
+
+.btn-save {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-save:hover {
+  background-color: #0056b3;
+}
+.errorm {
+  color: #e3342f;
+}
+@media (max-width: 768px) {
+  .fcci_form {
+    flex-direction: column;
+  }
+}
