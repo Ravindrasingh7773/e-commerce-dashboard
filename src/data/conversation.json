@@ -1,0 +1,175 @@
+[
+    {
+      "id": 1,
+      "name": "Tom Anderson",
+      "avatar": "https://images.pexels.com/photos/5384429/pexels-photo-5384429.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "status": "online",
+      "messages": [
+        { "text": "Hello, I'm interested in this item...", "time": "12:24 AM", "sentByUser": true },
+        { "text": "Great! I can provide more details.", "time": "12:25 AM", "sentByUser": false }
+      ],
+      "unreadCount": 8
+    },
+    {
+      "id": 2,
+      "name": "Luis Pittman",
+      "avatar": "https://images.pexels.com/photos/4486779/pexels-photo-4486779.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "status": "offline",
+      "messages": [
+        { "text": "Hi, any updates on the project?", "time": "2:13 PM", "sentByUser": true },
+        { "text": "Not yet, but I’ll keep you posted.", "time": "2:16 PM", "sentByUser": false },{ "text": "Hi, any updates on the project?", "time": "2:15 PM", "sentByUser": true },
+        { "text": "Not yet, but I’ll keep you posted.", "time": "2:16 PM", "sentByUser": false },{ "text": "Hi, any updates on the project?", "time": "2:15 PM", "sentByUser": true },
+        { "text": "Not yet, but I’ll keep you posted.", "time": "2:16 PM", "sentByUser": false },
+        { "text": "Hi, any updates on the project?", "time": "2:15 PM", "sentByUser": true },
+        { "text": "Not yet, but I’ll keep you posted.", "time": "2:16 PM", "sentByUser": false },{ "text": "Hi, any updates on the project?", "time": "2:15 PM", "sentByUser": true },
+        { "text": "Not yet, but I’ll keep you posted.", "time": "2:16 PM", "sentByUser": false },{ "text": "Hi, any updates on the project?", "time": "2:15 PM", "sentByUser": true },
+        { "text": "Not yet, but I’ll keep you posted.", "time": "2:16 PM", "sentByUser": false },{ "text": "Hi, any updates on the project?", "time": "2:15 PM", "sentByUser": true },
+        { "text": "Not yet, but I’ll keep you posted.", "time": "2:18 PM", "sentByUser": false }
+      ],
+      "unreadCount": 5
+    },
+    {
+      "id": 3,
+      "name": "Sara Murphy",
+      "avatar": "https://images.pexels.com/photos/5775887/pexels-photo-5775887.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "status": "online",
+      "messages": [
+        { "text": "Can we reschedule our meeting?", "time": "10:00 AM", "sentByUser": true },
+        { "text": "Sure, what time works best for you?", "time": "10:02 AM", "sentByUser": false }
+      ],
+      "unreadCount": 3
+    },
+    {
+      "id": 4,
+      "name": "David Stone",
+      "avatar": "https://m.media-amazon.com/images/I/61hLb3DSS4L._AC_UL480_FMwebp_QL65_.jpg",
+      "status": "online",
+      "messages": [
+        { "text": "Are you available for a quick chat?", "time": "3:45 PM", "sentByUser": true },
+        { "text": "Yes, give me a few minutes.", "time": "3:46 PM", "sentByUser": false }
+      ],
+      "unreadCount": 2
+    },
+    {
+      "id": 5,
+      "name": "Anna Richards",
+      "avatar": "https://m.media-amazon.com/images/I/71Mz8SowepL._AC_UL480_FMwebp_QL65_.jpg",
+      "status": "offline",
+      "messages": [
+        { "text": "Can you help me with this issue?", "time": "8:30 AM", "sentByUser": true },
+        { "text": "Of course! What’s the problem?", "time": "8:32 AM", "sentByUser": false }
+      ],
+      "unreadCount": 4
+    },
+    {
+      "id": 6,
+      "name": "John Baker",
+      "avatar": "https://m.media-amazon.com/images/I/61iKv6-unXL._AC_UL480_FMwebp_QL65_.jpg",
+      "status": "online",
+      "messages": [
+        { "text": "Hey! How have you been?", "time": "5:00 PM", "sentByUser": false },
+        { "text": "I’ve been good, thanks! You?", "time": "5:01 PM", "sentByUser": true }
+      ],
+      "unreadCount": 0
+    },
+    {
+      "id": 7,
+      "name": "Emily Watson",
+      "avatar": "https://m.media-amazon.com/images/I/51scvTo94qL._AC_UL480_FMwebp_QL65_.jpg",
+      "status": "online",
+      "messages": [
+        { "text": "Let’s catch up soon!", "time": "9:15 AM", "sentByUser": false },
+        { "text": "Absolutely! When are you free?", "time": "9:16 AM", "sentByUser": true }
+      ],
+      "unreadCount": 1
+    },
+    {
+      "id": 8,
+      "name": "Mark Green",
+      "avatar": "https://m.media-amazon.com/images/I/71rF787hRkL._AC_UL480_FMwebp_QL65_.jpg",
+      "status": "offline",
+      "messages": [
+        { "text": "How was your weekend?", "time": "4:00 PM", "sentByUser": true },
+        { "text": "It was great! How about yours?", "time": "4:05 PM", "sentByUser": false }
+      ],
+      "unreadCount": 6
+    },
+    {
+      "id": 9,
+      "name": "Olivia Young",
+      "avatar": "https://m.media-amazon.com/images/I/71UGfozNOjL._AC_UL480_QL65_.jpg",
+      "status": "online",
+      "messages": [
+        { "text": "Can you review this document?", "time": "11:20 AM", "sentByUser": true },
+        { "text": "Sure, I’ll check it out now.", "time": "11:22 AM", "sentByUser": false }
+      ],
+      "unreadCount": 2
+    },
+    {
+      "id": 10,
+      "name": "Chris Brown",
+      "avatar": "https://m.media-amazon.com/images/I/91E1TbeBeGL._AC_UL480_FMwebp_QL65_.jpg",
+      "status": "offline",
+      "messages": [
+        { "text": "Did you receive the files?", "time": "6:30 PM", "sentByUser": true },
+        { "text": "Yes, thank you!", "time": "6:31 PM", "sentByUser": false }
+      ],
+      "unreadCount": 0
+    },
+    {
+      "id": 11,
+      "name": "Sophia Turner",
+      "avatar": "https://images.pexels.com/photos/8159657/pexels-photo-8159657.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "status": "online",
+      "messages": [
+        { "text": "Are we still on for tomorrow?", "time": "12:15 PM", "sentByUser": false },
+        { "text": "Yes, same time as last week?", "time": "12:16 PM", "sentByUser": true }
+      ],
+      "unreadCount": 3
+    },
+    {
+      "id": 12,
+      "name": "Ben Adams",
+      "avatar": "https://images.pexels.com/photos/4236828/pexels-photo-4236828.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "status": "offline",
+      "messages": [
+        { "text": "Do you have any updates on the task?", "time": "7:10 AM", "sentByUser": true },
+        { "text": "I’ll finish it by end of day.", "time": "7:12 AM", "sentByUser": false }
+      ],
+      "unreadCount": 5
+    },
+    {
+      "id": 13,
+      "name": "Grace Carter",
+      "avatar": "https://images.pexels.com/photos/4542178/pexels-photo-4542178.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "status": "online",
+      "messages": [
+        { "text": "Loved your recent post!", "time": "2:00 PM", "sentByUser": true },
+        { "text": "Thank you so much!", "time": "2:01 PM", "sentByUser": false }
+      ],
+      "unreadCount": 4
+    },
+    {
+      "id": 14,
+      "name": "Harry Brooks",
+      "avatar": "https://images.pexels.com/photos/5444994/pexels-photo-5444994.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "status": "online",
+      "messages": [
+        { "text": "Are you attending the conference?", "time": "1:30 PM", "sentByUser": false },
+        { "text": "Yes, I’ll see you there!", "time": "1:31 PM", "sentByUser": true }
+      ],
+      "unreadCount": 2
+    },
+    {
+      "id": 15,
+      "name": "Ella Morgan",
+      "avatar": "https://images.pexels.com/photos/1449667/pexels-photo-1449667.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "status": "offline",
+      "messages": [
+        { "text": "Can we reschedule our meeting?", "time": "10:30 AM", "sentByUser": true },
+        { "text": "Sure, how about next week?", "time": "10:31 AM", "sentByUser": false }
+      ],
+      "unreadCount": 6
+    }
+  ]
+  

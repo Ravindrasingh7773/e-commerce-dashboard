@@ -18,9 +18,9 @@ const Layout = () => {
         <>
           <Header />
           <div className={styles.layout_wrap}>
-            <sagar> 
+            <span> 
             <SideMenuBar />
-            </sagar>
+            </span>
             <main>
               <Outlet />
             </main>
@@ -37,3 +37,4 @@ const Layout = () => {
 };
 
 export default Layout;
+ 

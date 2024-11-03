@@ -1,172 +1,272 @@
- [
-    {
-      "couponCode": "Shipfree20",
-      "couponName": "Free Shipping",
-      "couponType": "Fixed Discount",
-      "discountValue": 10,
-      "appliesTo": "All Products",
-      "duration": {
-        "startDate": "2024-10-01",
-        "endDate": "2024-12-31",
-        "setDuration": true
-      },
-      "usageLimits": {
-        "amountOfUses": 100,
-        "unlimitedUses": false
-      },
-      "status": "active"
+[
+  {
+    "id": 1,
+    "couponCode": "Shipfree20",
+    "couponName": "Free Shipping",
+    "couponType": "Fixed Discount",
+    "discountValue": 10,
+    "appliesTo": "All Products",
+    "duration": {
+      "startDate": "2024-10-01",
+      "endDate": "2024-12-31",
+      "setDuration": true
     },
-    {
-      "couponCode": "SAVE10",
-      "couponName": "Save 10%",
-      "couponType": "Percentage Discount",
-      "discountValue": 10,
-      "appliesTo": "Selected Categories",
-      "duration": {
-        "startDate": "2024-11-01",
-        "endDate": "2024-11-30",
-        "setDuration": true
-      },
-      "usageLimits": {
-        "amountOfUses": null,
-        "unlimitedUses": true
-      },
-      "status": "active"
+    "usageLimits": {
+      "amountOfUses": 100,
+      "unlimitedUses": false
     },
-    {
-      "couponCode": "FREESHIP",
-      "couponName": "Free Shipping",
-      "couponType": "Free Shipping",
-      "discountValue": 0,
-      "appliesTo": "Orders Over $50",
-      "duration": {
-        "startDate": "2024-09-15",
-        "endDate": "2024-10-15",
-        "setDuration": true
-      },
-      "usageLimits": {
-        "amountOfUses": 50,
-        "unlimitedUses": false
-      },
-      "status": "expired"
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "couponCode": "SAVE10",
+    "couponName": "Save 10%",
+    "couponType": "Percentage Discount",
+    "discountValue": 10,
+    "appliesTo": "Selected Categories",
+    "duration": {
+      "startDate": "2024-11-01",
+      "endDate": "2024-11-30",
+      "setDuration": true
     },
-    {
-      "couponCode": "EXTRA5",
-      "couponName": "Extra 5% Off",
-      "couponType": "Percentage Discount",
-      "discountValue": 5,
-      "appliesTo": "All Products",
-      "duration": {
-        "startDate": "2024-10-01",
-        "endDate": null,
-        "setDuration": false
-      },
-      "usageLimits": {
-        "amountOfUses": null,
-        "unlimitedUses": true
-      },
-      "status": "active"
+    "usageLimits": {
+      "amountOfUses": null,
+      "unlimitedUses": true
     },
-    {
-      "couponCode": "BUY1GET1",
-      "couponName": "Buy 1 Get 1 Free",
-      "couponType": "Price Discount",
-      "discountValue": 0,
-      "appliesTo": "Selected Products",
-      "duration": {
-        "startDate": "2024-11-15",
-        "endDate": "2024-12-15",
-        "setDuration": true
-      },
-      "usageLimits": {
-        "amountOfUses": 200,
-        "unlimitedUses": false
-      },
-      "status": "active"
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "couponCode": "FREESHIP",
+    "couponName": "Free Shipping",
+    "couponType": "Free Shipping",
+    "discountValue": 0,
+    "appliesTo": "Orders Over $50",
+    "duration": {
+      "startDate": "2024-09-15",
+      "endDate": "2024-10-15",
+      "setDuration": true
     },
-    {
-      "couponCode": "WELCOME20",
-      "couponName": "Welcome 20% Off",
-      "couponType": "Percentage Discount",
-      "discountValue": 20,
-      "appliesTo": "New Customers",
-      "duration": {
-        "startDate": "2024-10-01",
-        "endDate": "2024-11-01",
-        "setDuration": true
-      },
-      "usageLimits": {
-        "amountOfUses": null,
-        "unlimitedUses": true
-      },
-      "status": "active"
+    "usageLimits": {
+      "amountOfUses": 50,
+      "unlimitedUses": false
     },
-    {
-      "couponCode": "BLACKFRIDAY",
-      "couponName": "Black Friday Deal",
-      "couponType": "Fixed Discount",
-      "discountValue": 50,
-      "appliesTo": "All Products",
-      "duration": {
-        "startDate": "2024-11-29",
-        "endDate": "2024-11-29",
-        "setDuration": true
-      },
-      "usageLimits": {
-        "amountOfUses": 500,
-        "unlimitedUses": false
-      },
-      "status": "active"
+    "status": "expired"
+  },
+  {
+    "id": 4,
+    "couponCode": "EXTRA5",
+    "couponName": "Extra 5% Off",
+    "couponType": "Percentage Discount",
+    "discountValue": 5,
+    "appliesTo": "All Products",
+    "duration": {
+      "startDate": "2024-10-01",
+      "endDate": null,
+      "setDuration": false
     },
-    {
-      "couponCode": "SUMMERFUN",
-      "couponName": "Summer Fun 15% Off",
-      "couponType": "Percentage Discount",
-      "discountValue": 15,
-      "appliesTo": "Summer Collection",
-      "duration": {
-        "startDate": "2024-07-01",
-        "endDate": "2024-07-31",
-        "setDuration": true
-      },
-      "usageLimits": {
-        "amountOfUses": 300,
-        "unlimitedUses": false
-      },
-      "status": "expired"
+    "usageLimits": {
+      "amountOfUses": null,
+      "unlimitedUses": true
     },
-    {
-      "couponCode": "CYBERMONDAY",
-      "couponName": "Cyber Monday Special",
-      "couponType": "Price Discount",
-      "discountValue": 75,
-      "appliesTo": "Electronics",
-      "duration": {
-        "startDate": "2024-12-02",
-        "endDate": "2024-12-02",
-        "setDuration": true
-      },
-      "usageLimits": {
-        "amountOfUses": 1000,
-        "unlimitedUses": false
-      },
-      "status": "active"
+    "status": "active"
+  },
+  {
+    "id": 5,
+    "couponCode": "BUY1GET1",
+    "couponName": "Buy 1 Get 1 Free",
+    "couponType": "Price Discount",
+    "discountValue": 0,
+    "appliesTo": "Selected Products",
+    "duration": {
+      "startDate": "2024-11-15",
+      "endDate": "2024-12-15",
+      "setDuration": true
     },
-    {
-      "couponCode": "NEWYEAR50",
-      "couponName": "New Year 50% Off",
-      "couponType": "Percentage Discount",
-      "discountValue": 50,
-      "appliesTo": "All Products",
-      "duration": {
-        "startDate": "2024-12-31",
-        "endDate": "2025-01-01",
-        "setDuration": true
-      },
-      "usageLimits": {
-        "amountOfUses": null,
-        "unlimitedUses": true
-      },
-      "status": "active"
-    }
-  ] 
+    "usageLimits": {
+      "amountOfUses": 200,
+      "unlimitedUses": false
+    },
+    "status": "active"
+  },
+  {
+    "id": 6,
+    "couponCode": "WELCOME20",
+    "couponName": "Welcome 20% Off",
+    "couponType": "Percentage Discount",
+    "discountValue": 20,
+    "appliesTo": "New Customers",
+    "duration": {
+      "startDate": "2024-10-01",
+      "endDate": "2024-11-01",
+      "setDuration": true
+    },
+    "usageLimits": {
+      "amountOfUses": null,
+      "unlimitedUses": true
+    },
+    "status": "active"
+  },
+  {
+    "id": 7,
+    "couponCode": "BLACKFRIDAY",
+    "couponName": "Black Friday Deal",
+    "couponType": "Fixed Discount",
+    "discountValue": 50,
+    "appliesTo": "All Products",
+    "duration": {
+      "startDate": "2024-11-29",
+      "endDate": "2024-11-29",
+      "setDuration": true
+    },
+    "usageLimits": {
+      "amountOfUses": 500,
+      "unlimitedUses": false
+    },
+    "status": "active"
+  },
+  {
+    "id": 8,
+    "couponCode": "SUMMERFUN",
+    "couponName": "Summer Fun 15% Off",
+    "couponType": "Percentage Discount",
+    "discountValue": 15,
+    "appliesTo": "Summer Collection",
+    "duration": {
+      "startDate": "2024-07-01",
+      "endDate": "2024-07-31",
+      "setDuration": true
+    },
+    "usageLimits": {
+      "amountOfUses": 300,
+      "unlimitedUses": false
+    },
+    "status": "expired"
+  },
+  {
+    "id": 9,
+    "couponCode": "CYBERMONDAY",
+    "couponName": "Cyber Monday Special",
+    "couponType": "Price Discount",
+    "discountValue": 75,
+    "appliesTo": "Electronics",
+    "duration": {
+      "startDate": "2024-12-02",
+      "endDate": "2024-12-02",
+      "setDuration": true
+    },
+    "usageLimits": {
+      "amountOfUses": 1000,
+      "unlimitedUses": false
+    },
+    "status": "active"
+  },
+  {
+    "id": 10,
+    "couponCode": "NEWYEAR50",
+    "couponName": "New Year 50% Off",
+    "couponType": "Percentage Discount",
+    "discountValue": 50,
+    "appliesTo": "All Products",
+    "duration": {
+      "startDate": "2024-12-31",
+      "endDate": "2025-01-01",
+      "setDuration": true
+    },
+    "usageLimits": {
+      "amountOfUses": null,
+      "unlimitedUses": true
+    },
+    "status": "active"
+  },
+  {
+    "id": 11,
+    "couponCode": "FALLSALE",
+    "couponName": "Fall Sale 25% Off",
+    "couponType": "Percentage Discount",
+    "discountValue": 25,
+    "appliesTo": "All Products",
+    "duration": {
+      "startDate": "2024-09-01",
+      "endDate": "2024-09-30",
+      "setDuration": true
+    },
+    "usageLimits": {
+      "amountOfUses": 200,
+      "unlimitedUses": false
+    },
+    "status": "active"
+  },
+  {
+    "id": 12,
+    "couponCode": "CLEARANCE",
+    "couponName": "Clearance Sale 40% Off",
+    "couponType": "Percentage Discount",
+    "discountValue": 40,
+    "appliesTo": "Clearance Items",
+    "duration": {
+      "startDate": "2024-10-15",
+      "endDate": "2024-11-15",
+      "setDuration": true
+    },
+    "usageLimits": {
+      "amountOfUses": null,
+      "unlimitedUses": true
+    },
+    "status": "active"
+  },
+  {
+    "id": 13,
+    "couponCode": "WEEKENDDEAL",
+    "couponName": "Weekend Deal 30% Off",
+    "couponType": "Percentage Discount",
+    "discountValue": 30,
+    "appliesTo": "All Products",
+    "duration": {
+      "startDate": "2024-11-01",
+      "endDate": "2024-11-03",
+      "setDuration": true
+    },
+    "usageLimits": {
+      "amountOfUses": 150,
+      "unlimitedUses": false
+    },
+    "status": "active"
+  },
+  {
+    "id": 14,
+    "couponCode": "STUDENTDISCOUNT",
+    "couponName": "Student Discount 15%",
+    "couponType": "Percentage Discount",
+    "discountValue": 15,
+    "appliesTo": "Students",
+    "duration": {
+      "startDate": "2024-10-01",
+      "endDate": "2025-01-01",
+      "setDuration": true
+    },
+    "usageLimits": {
+      "amountOfUses": null,
+      "unlimitedUses": true
+    },
+    "status": "active"
+  },
+  {
+    "id": 15,
+    "couponCode": "LOYALTY20",
+    "couponName": "Loyalty Reward 20% Off",
+    "couponType": "Percentage Discount",
+    "discountValue": 20,
+    "appliesTo": "Returning Customers",
+    "duration": {
+      "startDate": "2024-10-20",
+      "endDate": "2024-11-20",
+      "setDuration": true
+    },
+    "usageLimits": {
+      "amountOfUses": null,
+      "unlimitedUses": true
+    },
+    "status": "active"
+  }
+]

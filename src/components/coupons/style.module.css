@@ -137,6 +137,10 @@
   font-weight: 700;
   line-height: 34px;
 }
+.otp_img span.free_shipping_icon{
+  background:#7E84A3;
+  color: #fff;
+}
 .otp_img h5 {
   font-size: 14px;
   font-weight: 500;

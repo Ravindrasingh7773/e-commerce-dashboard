@@ -9,6 +9,6 @@
     flex:1; 
     overflow-y: auto;
 }
-.layout_wrap sagar{ 
+.layout_wrap>span{ 
     overflow-y: auto;
 }
